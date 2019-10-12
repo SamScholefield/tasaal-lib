@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TasaalLibComponent } from './tasaal-lib.component';
+import { HeaderViewComponent } from './header-view.component';
 
-describe('TasaalLibComponent', () => {
-  let component: TasaalLibComponent;
-  let fixture: ComponentFixture<TasaalLibComponent>;
+describe('HeaderViewComponent', () => {
+  let component: HeaderViewComponent;
+  let fixture: ComponentFixture<HeaderViewComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TasaalLibComponent ]
+      declarations: [ HeaderViewComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TasaalLibComponent);
+    fixture = TestBed.createComponent(HeaderViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

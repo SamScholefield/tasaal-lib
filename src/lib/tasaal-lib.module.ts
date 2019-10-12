@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
-import { TasaalLibComponent } from './tasaal-lib.component';
-
-
+import { HeaderViewComponent } from './layout/header/header-view/header-view.component';
 
 @NgModule({
-  declarations: [TasaalLibComponent],
-  imports: [
-  ],
-  exports: [TasaalLibComponent]
+  declarations: [HeaderViewComponent],
+  imports: [],
+  exports: [HeaderViewComponent]
 })
-export class TasaalLibModule { }
+export class TasaalLibModule {}
